@@ -15,7 +15,11 @@ import com.google.android.material.navigation.NavigationBarView;
 public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView;
+
+    // fragmentManger : 액티비티와 프래그먼트의 중간에서 서로를 이어주는 역할
     private FragmentManager fm;
+
+    // fragmentTransaction : 프래그먼트를 추가, 삭제, 교체 등의 작업 수행 + 행해진 트랜잭션의 상태 프래그먼트 백스택에 저장
     private FragmentTransaction ft;
     private Frag1 frag1;
     private Frag2 frag2;
@@ -65,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     //프래그먼트 교체가 일어나는 실행문
     private void setFrag(int n) {
         fm = getSupportFragmentManager();
-        ft = fm.beginTransaction(); //실제적인 프레그먼트 교체
+        ft = fm.beginTransaction(); // 실제적인 프레그먼트 교체
         switch (n) {
             case 0:
                 ft.replace(R.id.main_frame, frag1);

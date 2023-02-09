@@ -16,6 +16,7 @@ public class Frag3 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        //inflater : xml로 정의된 view를 실제 객체화 시키는 용도
         view = inflater.inflate(R.layout.frag3, container, false);
 
         return view;
