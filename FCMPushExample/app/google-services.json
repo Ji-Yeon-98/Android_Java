@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "340448051535",
+    "project_id": "fcmpushexample-e212b",
+    "storage_bucket": "fcmpushexample-e212b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340448051535:android:66972c479d5c8ee995053a",
+        "android_client_info": {
+          "package_name": "com.example.fcmpushexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340448051535-0c1q14u9facfk8ifo0ikinpmk7j2j4o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0lkM_X7DYS4BDioXQyUkeO6ZZnOhL0HQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340448051535-0c1q14u9facfk8ifo0ikinpmk7j2j4o6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

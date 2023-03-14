@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RegisterForActivityExample</string>
+    <string name="name">Name</string>
+</resources>
